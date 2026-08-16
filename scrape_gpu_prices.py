@@ -36,6 +36,7 @@ if sys.stdout.encoding != "utf-8":
 SCRIPT_DIR = Path(__file__).resolve().parent
 OUTPUT_FILE = SCRIPT_DIR / "gpu_prices.json"
 HTML_FILE = SCRIPT_DIR / "gpu_prices.html"
+INDEX_FILE = SCRIPT_DIR / "index.html"  # mirror of HTML_FILE for GitHub Pages root landing
 LOG_FILE = SCRIPT_DIR / "scrape.log"
 
 NOW = datetime.now(timezone.utc)
@@ -257,11 +258,19 @@ def load_existing():
 
 
 def save(data):
+    import shutil
+
     data["last_updated"] = ISO_TIME
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     log(f"Saved {OUTPUT_FILE.name}")
     embed_in_html(data)
+    # Mirror to index.html so GitHub Pages has a clean root landing page.
+    try:
+        shutil.copyfile(HTML_FILE, INDEX_FILE)
+        log(f"Mirrored dashboard to {INDEX_FILE.name}")
+    except OSError as e:
+        log(f"WARN: could not mirror index.html: {e}")
 
 
 def embed_in_html(data):
