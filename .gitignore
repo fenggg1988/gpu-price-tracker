@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+data/gpu_prices.db
+.env
+logs/
+*.log

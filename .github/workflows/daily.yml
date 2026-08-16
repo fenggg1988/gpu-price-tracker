@@ -1,0 +1,40 @@
+name: Daily GPU Price Scrape
+
+on:
+  schedule:
+    # 09:00 Beijing time (UTC+8) == 01:00 UTC
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --no-cache-dir requests
+
+      - name: Run scraper
+        run: python scrape_gpu_prices.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add gpu_prices.json gpu_prices.html
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore: daily GPU price update $(date -u +%F)"
+            git push
+          fi
