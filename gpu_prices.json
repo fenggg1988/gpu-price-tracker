@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T02:16:11Z",
+  "last_updated": "2026-08-20T02:14:44Z",
   "history": {
     "2026-06-23": [
       {
@@ -10557,6 +10557,412 @@
         "source": "reference",
         "as_of": "2026-06-23",
         "scrape_time": "2026-08-19T02:16:11Z"
+      }
+    ],
+    "2026-08-20": [
+      {
+        "provider": "Vast.ai (min)",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 2.552,
+        "category": "current",
+        "source": "live",
+        "extra": {
+          "sample_size": 6
+        },
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Vast.ai (median)",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 3.072,
+        "category": "current",
+        "source": "live",
+        "extra": {
+          "sample_size": 6
+        },
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "RunPod (Secure)",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 3.29,
+        "category": "current",
+        "source": "live",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "RunPod (Community)",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 2.69,
+        "category": "current",
+        "source": "live",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Vast.ai (min)",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 0.802,
+        "category": "previous",
+        "source": "live",
+        "extra": {
+          "sample_size": 12
+        },
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Vast.ai (median)",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 1.056,
+        "category": "previous",
+        "source": "live",
+        "extra": {
+          "sample_size": 12
+        },
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "RunPod (Secure)",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 1.59,
+        "category": "previous",
+        "source": "live",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "RunPod (Community)",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 1.39,
+        "category": "previous",
+        "source": "live",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Vast.ai (min)",
+        "gpu_model": "H200 SXM 141GB",
+        "price_per_hour_usd": 2.966,
+        "category": "next-gen",
+        "source": "live",
+        "extra": {
+          "sample_size": 6
+        },
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Vast.ai (median)",
+        "gpu_model": "H200 SXM 141GB",
+        "price_per_hour_usd": 3.936,
+        "category": "next-gen",
+        "source": "live",
+        "extra": {
+          "sample_size": 6
+        },
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "RunPod (Secure)",
+        "gpu_model": "H200 SXM 141GB",
+        "price_per_hour_usd": 4.59,
+        "category": "next-gen",
+        "source": "live",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "RunPod (Community)",
+        "gpu_model": "H200 SXM 141GB",
+        "price_per_hour_usd": 3.59,
+        "category": "next-gen",
+        "source": "live",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Vast.ai (min)",
+        "gpu_model": "B200 SXM 180GB",
+        "price_per_hour_usd": 4.627,
+        "category": "next-gen",
+        "source": "live",
+        "extra": {
+          "sample_size": 4
+        },
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Vast.ai (median)",
+        "gpu_model": "B200 SXM 180GB",
+        "price_per_hour_usd": 5.315,
+        "category": "next-gen",
+        "source": "live",
+        "extra": {
+          "sample_size": 4
+        },
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "RunPod (Secure)",
+        "gpu_model": "B200 SXM 180GB",
+        "price_per_hour_usd": 6.79,
+        "category": "next-gen",
+        "source": "live",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "RunPod (Community)",
+        "gpu_model": "B200 SXM 180GB",
+        "price_per_hour_usd": 5.98,
+        "category": "next-gen",
+        "source": "live",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "AWS",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 6.88,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Azure",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 12.29,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "GCP",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 10.98,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Lambda Labs",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 3.99,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "CoreWeave",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 4.25,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Modal",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 3.95,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Baseten",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 6.5,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Hyperstack",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 2.4,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "TensorDock",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 2.25,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "HPC-AI",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 1.99,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Thunder Compute",
+        "gpu_model": "H100 SXM 80GB",
+        "price_per_hour_usd": 1.38,
+        "category": "current",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "AWS",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 3.43,
+        "category": "previous",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Azure",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 3.67,
+        "category": "previous",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "GCP",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 5.78,
+        "category": "previous",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Lambda Labs",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 2.79,
+        "category": "previous",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "CoreWeave",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 2.21,
+        "category": "previous",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Modal",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 2.5,
+        "category": "previous",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Baseten",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 4.0,
+        "category": "previous",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Hyperstack",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 1.6,
+        "category": "previous",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Thunder Compute",
+        "gpu_model": "A100 SXM 80GB",
+        "price_per_hour_usd": 0.78,
+        "category": "previous",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Lambda Labs",
+        "gpu_model": "H200 SXM 141GB",
+        "price_per_hour_usd": 3.79,
+        "category": "next-gen",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "HPC-AI",
+        "gpu_model": "H200 SXM 141GB",
+        "price_per_hour_usd": 2.5,
+        "category": "next-gen",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Yotta Labs",
+        "gpu_model": "H200 SXM 141GB",
+        "price_per_hour_usd": 3.75,
+        "category": "next-gen",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Lambda Labs",
+        "gpu_model": "B200 SXM 180GB",
+        "price_per_hour_usd": 6.69,
+        "category": "next-gen",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Modal",
+        "gpu_model": "B200 SXM 180GB",
+        "price_per_hour_usd": 6.25,
+        "category": "next-gen",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Baseten",
+        "gpu_model": "B200 SXM 180GB",
+        "price_per_hour_usd": 9.98,
+        "category": "next-gen",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "HPC-AI",
+        "gpu_model": "B200 SXM 180GB",
+        "price_per_hour_usd": 4.0,
+        "category": "next-gen",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
+      },
+      {
+        "provider": "Yotta Labs",
+        "gpu_model": "B200 SXM 180GB",
+        "price_per_hour_usd": 5.37,
+        "category": "next-gen",
+        "source": "reference",
+        "as_of": "2026-06-23",
+        "scrape_time": "2026-08-20T02:14:44Z"
       }
     ]
   }
