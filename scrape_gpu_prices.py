@@ -2,9 +2,10 @@
 """
 GPU Rental Price Tracker — daily time-series collector.
 
-Tracks H100 SXM 80GB / A100 SXM 80GB / H200 SXM 141GB / B200 SXM 180GB across
-live spot markets (Vast.ai, RunPod) plus a curated reference set for the major
-hyperscalers / managed clouds (AWS, Azure, GCP, Lambda Labs, CoreWeave, ...).
+Tracks H100 SXM 80GB / A100 SXM 80GB / H200 SXM 141GB / B200 SXM 180GB /
+B300 SXM 288GB / GB300 NVL72 across live spot markets (Vast.ai, RunPod) plus a
+curated reference set for the major hyperscalers / managed clouds (AWS, Azure,
+GCP, Lambda Labs, CoreWeave, ...).
 
 Each record carries a `source` flag:
   - "live"      : pulled from a vendor public API on each run
@@ -54,6 +55,10 @@ TARGETS = [
     {"key": "A100 SXM 80GB",  "category": "previous", "vast": "A100 SXM4", "vast_min_ram": 80,  "runpod_id": "NVIDIA A100-SXM4-80GB"},
     {"key": "H200 SXM 141GB", "category": "next-gen", "vast": "H200",      "vast_min_ram": 140, "runpod_id": "NVIDIA H200"},
     {"key": "B200 SXM 180GB", "category": "next-gen", "vast": "B200",      "vast_min_ram": 170, "runpod_id": "NVIDIA B200"},
+    {"key": "B300 SXM 288GB", "category": "next-gen", "vast": "B300",      "vast_min_ram": 260, "runpod_id": "NVIDIA B300 SXM6 AC"},
+    # GB300 is sold as NVL72 rack systems; Vast.ai/RunPod don't list it yet.
+    # Kept here so the tracker auto-picks it up the moment a spot market lists it.
+    {"key": "GB300 NVL72",    "category": "next-gen", "vast": "GB300",     "vast_min_ram": 200, "runpod_id": "GB300"},
 ]
 
 # ── Reference (curated) prices for vendors without a public price API.
@@ -95,6 +100,14 @@ REFERENCE = [
     ("Baseten",      "B200 SXM 180GB", 9.98,  "2026-06-23"),
     ("HPC-AI",       "B200 SXM 180GB", 4.00,  "2026-06-23"),
     ("Yotta Labs",   "B200 SXM 180GB", 5.37,  "2026-06-23"),
+
+    # B300 SXM 288GB (verified 2026-09-16 from provider pricing pages / market reports)
+    ("Nebius",       "B300 SXM 288GB", 7.85,  "2026-09-16"),  # on-demand; preemptible $4.30
+    ("Verda",        "B300 SXM 288GB", 7.50,  "2026-09-16"),  # ex-DataCrunch, on-demand
+
+    # GB300 NVL72 — no published per-GPU on-demand price yet (CoreWeave/Nebius/Lambda
+    # all "contact sales" as of 2026-09-16). Reference rows will be added once a
+    # provider publishes a list price.
 ]
 
 
