@@ -2,6 +2,13 @@
 
 每天自动抓取主流 H100 / A100 / H200 / B200 SXM 卡的云租赁价格，累积时序数据，生成自包含的可视化仪表盘。
 
+## 在线看板（GitHub Pages，云端自动更新）
+
+**https://fenggg1988.github.io/gpu-price-tracker/**
+
+数据由 GitHub Actions 每天在云端自动抓取并提交，GitHub Pages 随之自动重建，因此
+**不需要本地电脑开机、也不需要打开任何软件**。本页数据随时是最新的。
+
 ## 数据来源
 
 | 供应商 | 类型 | 接口 |
@@ -24,21 +31,15 @@ start gpu_prices.html
 
 ## 每日自动抓取
 
-Windows Task Scheduler 任务名 `GPUPriceTracker`，每天 **09:00** 触发 `run_scraper.bat`，日志写到 `scrape.log`。
+通过 **GitHub Actions** 云端运行（`.github/workflows/daily.yml`），每天 01:00 UTC（**北京时间 09:00**）
+自动执行 `scrape_gpu_prices.py`，把结果提交回 `gpu_prices.json` 与 `gpu_prices.html`，GitHub Pages 随之自动更新
+—— 不需要本地电脑开机。
 
-```bat
-:: 注册任务（已完成）
-schtasks /Create /TN GPUPriceTracker /TR "C:\Users\fengz\gpu-price-tracker\run_scraper.bat" /SC DAILY /ST 09:00 /RL LIMITED /F
+工作流同时支持手动触发；它与另外几个价格项目组成了**跨仓库链式自调度**（memory → gpu → agri → openrouter → purr），
+任一环节被触发即可自动接力跑完全链。
 
-:: 立刻手动跑一次
-schtasks /Run /TN GPUPriceTracker
-
-:: 查看任务
-schtasks /Query /TN GPUPriceTracker /FO LIST
-
-:: 删除任务
-schtasks /Delete /TN GPUPriceTracker /F
-```
+> 历史方案：早期用本地 Windows Task Scheduler（`run_scraper.bat` / `scrape.log` / `scheduler/`）在每天 09:00 触发，
+> 现已由云端 Actions 取代；本地脚本仅保留作手动兜底。
 
 ## 文件结构
 
