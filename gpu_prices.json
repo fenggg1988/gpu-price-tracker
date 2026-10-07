@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T08:02:14Z",
+  "last_updated": "2026-10-07T14:55:33Z",
   "history": {
     "2026-06-23": [
       {
@@ -26843,24 +26843,24 @@
       {
         "provider": "Vast.ai (min)",
         "gpu_model": "H100 SXM 80GB",
-        "price_per_hour_usd": 1.682,
+        "price_per_hour_usd": 1.482,
         "category": "current",
         "source": "live",
         "extra": {
           "sample_size": 6
         },
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Vast.ai (median)",
         "gpu_model": "H100 SXM 80GB",
-        "price_per_hour_usd": 3.874,
+        "price_per_hour_usd": 3.779,
         "category": "current",
         "source": "live",
         "extra": {
           "sample_size": 6
         },
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "RunPod (Secure)",
@@ -26868,7 +26868,7 @@
         "price_per_hour_usd": 3.49,
         "category": "current",
         "source": "live",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "RunPod (Community)",
@@ -26876,7 +26876,7 @@
         "price_per_hour_usd": 2.69,
         "category": "current",
         "source": "live",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Vast.ai (min)",
@@ -26885,9 +26885,9 @@
         "category": "previous",
         "source": "live",
         "extra": {
-          "sample_size": 5
+          "sample_size": 7
         },
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Vast.ai (median)",
@@ -26896,9 +26896,9 @@
         "category": "previous",
         "source": "live",
         "extra": {
-          "sample_size": 5
+          "sample_size": 7
         },
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "RunPod (Secure)",
@@ -26906,7 +26906,7 @@
         "price_per_hour_usd": 1.59,
         "category": "previous",
         "source": "live",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "RunPod (Community)",
@@ -26914,29 +26914,29 @@
         "price_per_hour_usd": 1.39,
         "category": "previous",
         "source": "live",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Vast.ai (min)",
         "gpu_model": "H200 SXM 141GB",
-        "price_per_hour_usd": 5.121,
+        "price_per_hour_usd": 2.633,
         "category": "next-gen",
         "source": "live",
         "extra": {
-          "sample_size": 1
+          "sample_size": 4
         },
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Vast.ai (median)",
         "gpu_model": "H200 SXM 141GB",
-        "price_per_hour_usd": 5.121,
+        "price_per_hour_usd": 3.958,
         "category": "next-gen",
         "source": "live",
         "extra": {
-          "sample_size": 1
+          "sample_size": 4
         },
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "RunPod (Secure)",
@@ -26944,7 +26944,7 @@
         "price_per_hour_usd": 4.59,
         "category": "next-gen",
         "source": "live",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "RunPod (Community)",
@@ -26952,7 +26952,7 @@
         "price_per_hour_usd": 3.59,
         "category": "next-gen",
         "source": "live",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Vast.ai (min)",
@@ -26961,9 +26961,9 @@
         "category": "next-gen",
         "source": "live",
         "extra": {
-          "sample_size": 6
+          "sample_size": 2
         },
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Vast.ai (median)",
@@ -26972,9 +26972,9 @@
         "category": "next-gen",
         "source": "live",
         "extra": {
-          "sample_size": 6
+          "sample_size": 2
         },
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "RunPod (Secure)",
@@ -26982,7 +26982,7 @@
         "price_per_hour_usd": 6.79,
         "category": "next-gen",
         "source": "live",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "RunPod (Community)",
@@ -26990,29 +26990,7 @@
         "price_per_hour_usd": 5.98,
         "category": "next-gen",
         "source": "live",
-        "scrape_time": "2026-10-07T08:02:14Z"
-      },
-      {
-        "provider": "Vast.ai (min)",
-        "gpu_model": "B300 SXM 288GB",
-        "price_per_hour_usd": 9.94,
-        "category": "next-gen",
-        "source": "live",
-        "extra": {
-          "sample_size": 1
-        },
-        "scrape_time": "2026-10-07T08:02:14Z"
-      },
-      {
-        "provider": "Vast.ai (median)",
-        "gpu_model": "B300 SXM 288GB",
-        "price_per_hour_usd": 9.94,
-        "category": "next-gen",
-        "source": "live",
-        "extra": {
-          "sample_size": 1
-        },
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "RunPod (Secure)",
@@ -27020,7 +26998,7 @@
         "price_per_hour_usd": 7.89,
         "category": "next-gen",
         "source": "live",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "RunPod (Community)",
@@ -27028,7 +27006,7 @@
         "price_per_hour_usd": 6.94,
         "category": "next-gen",
         "source": "live",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "AWS",
@@ -27037,7 +27015,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Azure",
@@ -27046,7 +27024,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "GCP",
@@ -27055,7 +27033,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Lambda Labs",
@@ -27064,7 +27042,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "CoreWeave",
@@ -27073,7 +27051,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Modal",
@@ -27082,7 +27060,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Baseten",
@@ -27091,7 +27069,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Hyperstack",
@@ -27100,7 +27078,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "TensorDock",
@@ -27109,7 +27087,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "HPC-AI",
@@ -27118,7 +27096,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Thunder Compute",
@@ -27127,7 +27105,7 @@
         "category": "current",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "AWS",
@@ -27136,7 +27114,7 @@
         "category": "previous",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Azure",
@@ -27145,7 +27123,7 @@
         "category": "previous",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "GCP",
@@ -27154,7 +27132,7 @@
         "category": "previous",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Lambda Labs",
@@ -27163,7 +27141,7 @@
         "category": "previous",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "CoreWeave",
@@ -27172,7 +27150,7 @@
         "category": "previous",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Modal",
@@ -27181,7 +27159,7 @@
         "category": "previous",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Baseten",
@@ -27190,7 +27168,7 @@
         "category": "previous",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Hyperstack",
@@ -27199,7 +27177,7 @@
         "category": "previous",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Thunder Compute",
@@ -27208,7 +27186,7 @@
         "category": "previous",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Lambda Labs",
@@ -27217,7 +27195,7 @@
         "category": "next-gen",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "HPC-AI",
@@ -27226,7 +27204,7 @@
         "category": "next-gen",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Yotta Labs",
@@ -27235,7 +27213,7 @@
         "category": "next-gen",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Lambda Labs",
@@ -27244,7 +27222,7 @@
         "category": "next-gen",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Modal",
@@ -27253,7 +27231,7 @@
         "category": "next-gen",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Baseten",
@@ -27262,7 +27240,7 @@
         "category": "next-gen",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "HPC-AI",
@@ -27271,7 +27249,7 @@
         "category": "next-gen",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Yotta Labs",
@@ -27280,7 +27258,7 @@
         "category": "next-gen",
         "source": "reference",
         "as_of": "2026-06-23",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Nebius",
@@ -27289,7 +27267,7 @@
         "category": "next-gen",
         "source": "reference",
         "as_of": "2026-09-16",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       },
       {
         "provider": "Verda",
@@ -27298,7 +27276,7 @@
         "category": "next-gen",
         "source": "reference",
         "as_of": "2026-09-16",
-        "scrape_time": "2026-10-07T08:02:14Z"
+        "scrape_time": "2026-10-07T14:55:33Z"
       }
     ]
   }
